@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
   std::cout << "loaded index...\n";
   std::vector<std::string> queries;
   std::string query;
-  while (!std::cin.eof() && std::cin>>query) {
+  while (std::cin>>query) {
     queries.push_back(query);
   }
 
